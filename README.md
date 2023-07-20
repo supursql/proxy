@@ -12,3 +12,21 @@
 
 ---
 
+### 接口
+```angular2html
+/random     随机获取一个高分代理
+/all        获取所有代理
+/count      获取当前数据库中代理的数量
+```
+
+### 使用
+1. 克隆代码
+```angular2html
+git clone git@github.com:supursql/proxy.git
+cd proxy
+```
+2. 下载docker
+3. docker运行
+```angular2html
+docker-compose -f build.yaml up
+```
